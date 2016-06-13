@@ -1,0 +1,43 @@
+body,html{height:100%}
+body{font-family:sans-serif;color:#444;padding:0;margin:0;background:#f6f4ec}
+#app,.main{height:100%}
+.main{position:relative;background:#f6f4ec}
+.sidebar{position:fixed;background:#c13832;float:left;width:175px;height:100%}
+.sidebar ul{list-style-type:none;margin:0;line-height:2em;padding:3em 1em 0}
+.sidebar li{border-radius:4px;margin-bottom:.5em;padding:0;height:100%}
+.sidebar li>a{display:block;width:100%;padding-right:1em;text-align:right;color:#f6f4ec;text-decoration:none}
+.sidebar li>a:after{content:"\A0\A0"}
+.sidebar li.active,.sidebar li:hover{background:#f6f4ec}
+.sidebar li.active a,.sidebar li:hover a{color:#c13832}
+.sidebar li a.unsynced:after{content:"*";margin-left:.1em}
+.sidebar hr{border:none;border-top:1px solid #f6f4ec}
+.content{background:#f6f4ec;padding:.5em 1vw 0 200px}
+.content h1{font-size:1.3em;margin-top:0;border-bottom:1px dotted #aaa}
+.notification{border-radius:8px;margin-bottom:1em}
+.notification .close{position:fixed;right:1.5vw;font-size:1.2em;color:#fff;border:0;padding-top:.2em}
+.notification h2{color:#fff;margin:0;font-size:1em;padding:.1em .4em .3em}
+.notification p{margin:.5em 0;padding:0 .5em;font-size:.8em}
+.notification li{color:#c13832;font-size:.8em}
+.notification-error{border:2px solid #c13832}
+.notification-error h2{background:#c13832}
+.notification-error p{color:#c13832}
+.notification-info{border:2px solid #368ca8}
+.notification-info h2{background:#368ca8}
+.notification-info p{color:#368ca8}
+li{cursor:pointer}
+
+
+#total{background:none!important;cursor:default!important;padding-top:10px!important}
+#div1,#div2,#div3,#div4,#div5,#div6{width:400px;height:100px;border:1px solid #aaa; position:absolute; left:0;}
+.navbar{margin-bottom:0}
+.navbar-brand{padding:5px 10px}
+.navbar-default{background-color:#212121}
+.navbar-default .navbar-nav > li > a{color:#FFF}
+.row{margin:0}
+.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding:0}
+
+.wrapper{margin-top:80px;margin-bottom:80px}
+.form-signin{max-width:380px;padding:15px 35px 45px;margin:0 auto;background-color:#fff;border:1px solid rgba(0,0,0,.1)}
+.msgBox{
+	padding:10px;
+}
